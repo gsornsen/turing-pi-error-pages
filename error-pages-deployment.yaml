@@ -33,7 +33,7 @@ spec:
         - name: SHOW_DETAILS
           value: "true"
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         securityContext:
           readOnlyRootFilesystem: true
           runAsNonRoot: true

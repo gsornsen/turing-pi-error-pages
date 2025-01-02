@@ -17,6 +17,6 @@ spec:
       services:
         - kind: Service
           name: error-pages
-          port: 8080
+          port: 80
       middlewares:
         - name: error-pages-middleware
