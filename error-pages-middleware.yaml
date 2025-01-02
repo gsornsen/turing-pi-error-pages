@@ -5,6 +5,7 @@ metadata:
   name: error-pages-middleware
   annotations:
     argocd.argoproj.io/sync-wave: "2"
+  namespace: error-pages
 spec:
   errors:
     status:

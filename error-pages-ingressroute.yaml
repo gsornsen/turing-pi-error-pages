@@ -5,6 +5,7 @@ metadata:
   name: error-pages-ingressroute
   annotations:
     argocd.argoproj.io/sync-wave: "3"
+  namespace: error-pages
 spec:
   entryPoints:
     - websecure

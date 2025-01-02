@@ -5,6 +5,7 @@ metadata:
   name: error-pages
   annotations:
     argocd.argoproj.io/sync-wave: "1"
+  namespace: error-pages
 spec:
   selector:
     app: error-pages
