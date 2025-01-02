@@ -3,6 +3,8 @@ apiVersion: traefik.containo.us/v1alpha1
 kind: Middleware
 metadata:
   name: error-pages-middleware
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   errors:
     status:

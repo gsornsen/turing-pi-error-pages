@@ -3,6 +3,8 @@ apiVersion: traefik.containo.us/v1alpha1
 kind: IngressRoute
 metadata:
   name: error-pages-ingressroute
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
 spec:
   entryPoints:
     - websecure
